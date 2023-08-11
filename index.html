@@ -40,20 +40,16 @@
 
         <!--Video text-->
         <div class="Video_Text">
-            <h1 class="red-text">Natty's Portfolio</h1>
-            <strong>
-                <p>
-                    <q>The computer programmer is a creator of universes for which he alone is the lawgiver.
-                        <br>No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or
-                        <br>field of battle and to command such unswervingly dutiful actors or troops.
-                    </q>
-                    <br> -Joseph Weizenbaum
-                    <br>
-                    <br> My name is Natty. Welcome to my portfolio website. On it, I will tell you about my background and experience.
-                    <br>
-                    <br> Thank you for stopping by and enjoy! 
-                </p>
-            </strong>
+            <div>
+                <h1>Natty's Portfolio</h1>
+                    <p class="header-text">
+                        
+                        My name is Natty. Welcome to my portfolio website. Here is my background and experience.
+                        <br>
+                        <br> Thank you for stopping by!
+                        <br>
+                    </p> 
+            </div>
         </div>
 
         <!--About section-->
@@ -63,28 +59,35 @@
                 <img src="images/about.jpg" alt="Elvis dashboard">
             </div>
             <!--Right column-->
-            <div class="Column_1">
-                <h1>About</h1>
-                <p>
+            <div class="left Column_1">
+                <h2>About</h2>
+                <div class="content-block">
                     I am a software developer and project manager! I love movies, comic books, and nachos. 
                     <br>
                     <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
                     <br>
                     <br>I am a full-stack developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below!
-                </p>
+                </div>
             </div>
         </div>
 
         <!--GitHub section-->
         <div class="Row" id="GitHub">
             <!--Left column-->
-            <div class="Column_1">
-                <h1>GitHub</h1>
-                <p>
-                    You can view my coding projects on my GitHub profile here:
+            <div class="left Column_1">
+                <h2>GitHub</h2>
+                <div class="content-block"> 
+                    You can view my GitHub profile <a href="https://github.com/natty886" target="_blank">here!</a> Below are just a couple of my favorite projects:
                     <br>
-                    <p class="center"><a href="https://github.com/natty886" target="_blank">Natty's Github</a></p>
-                </p>
+                    <a href="https://github.com/natty886/Tech-Academy-Basic-CSharp-Projects/tree/main/TwentyOne"><h3>TwentyOne</h3></a>
+                    This project is a console based game of blackjack using C#. Players can enter their name and play against the automated dealer. 
+                    <br>
+                    <a href="https://github.com/natty886/Python_Projects/tree/main/Django_Checkbook_Project"><h3>Checking Account</h3></a>
+                    Using Django framework, users can open new checking account and calculate balances.
+                    <br>
+                    <br>
+                    
+                </div>
             </div>
             <!--Right column-->
             <div class="Column_2">
@@ -100,7 +103,7 @@
             </div>
             <!--Contact form, right column-->
             <div class="Column_1 Column_tall">
-                <h1>Contact</h1>
+                <h2>Contact</h2>
                 <!--This specifies where and how to send the form data; we are leaving it blank-->
                 <form action="https://formspree.io/f/mpzeygyo" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
                     <label>Name:</label>
